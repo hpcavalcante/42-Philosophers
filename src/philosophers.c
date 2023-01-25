@@ -6,7 +6,7 @@
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 19:10:57 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/25 18:14:12 by hepiment         ###   ########.fr       */
+/*   Updated: 2023/01/25 18:47:02 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,16 +35,18 @@ t_data	*init_data(int argc, char **argv)
 
 void	init_philo(t_data *data)
 {
-	int	i;
+	int			i;
+	long int	time;
 
 	i = 0;
+	time = get_time();
 	while (i < data->nb_philo)
 	{
 		data->philo[i].id = i + 1;
 		data->philo[i].left_fork = i;
 		data->philo[i].right_fork = i + 1;
 		data->philo[i].data = data;
-		data->philo[i].last_meal = 0;
+		data->philo[i].last_meal = time;
 		data->philo[i].nb_meals = 0;
 		if (i + 1 == data->nb_philo)
 			data->philo[i].right_fork = 0;
