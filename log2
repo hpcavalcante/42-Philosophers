@@ -1,0 +1,259 @@
+make: Nothing to be done for 'all'.
+[H[2J[3J[41;30m 2 100 200 200 should die[0m
+[1;31mTest: 1[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    102 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    101 | philo:   1 | status: [31mdied[0m
+
+[41;30m 2 150 360 100 should die[0m
+[1;31mTest: 1[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+
+[41;30m 2 150 200 100 should die[0m
+[1;31mTest: 1[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    151 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    152 | philo:   1 | status: [31mdied[0m
+
+[41;30m 1 400 100 100 7 should die[0m
+[1;31mTest: 1[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+
+[42;30m 4 210 100 100 7 not die[0m
+[1;32mTest: 1[0m
+[1;32mTest: 2[0m
+[1;32mTest: 3[0m
+[1;32mTest: 4[0m
+[1;32mTest: 5[0m
+[1;32mTest: 6[0m
+[1;32mTest: 7[0m
+[1;32mTest: 8[0m
+[1;32mTest: 9[0m
+[1;32mTest: 10[0m
+
+[41;30m 1 800 200 200 7 should die[0m
+[1;31mTest: 1[0m
+	time:    801 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    801 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    801 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    801 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    800 | philo:   1 | status: [31mdied[0m
+
+[42;30m 5 800 200 200 7 not die[0m
+[1;32mTest: 1[0m
+[1;32mTest: 2[0m
+[1;32mTest: 3[0m
+[1;32mTest: 4[0m
+[1;32mTest: 5[0m
+[1;32mTest: 6[0m
+[1;32mTest: 7[0m
+[1;32mTest: 8[0m
+[1;32mTest: 9[0m
+[1;32mTest: 10[0m
+
+[41;30m 4 310 200 100 7 should die[0m
+[1;31mTest: 1[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    312 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    312 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    312 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    311 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    312 | philo:   1 | status: [31mdied[0m
+
+[42;30m 5 400 100 100 7 not die[0m
+[1;32mTest: 1[0m
+[1;32mTest: 2[0m
+[1;32mTest: 3[0m
+[1;32mTest: 4[0m
+[1;32mTest: 5[0m
+[1;32mTest: 6[0m
+[1;32mTest: 7[0m
+[1;32mTest: 8[0m
+[1;32mTest: 9[0m
+[1;32mTest: 10[0m
+
+[41;30m 5 200 100 100 7 should die[0m
+[1;31mTest: 1[0m
+	time:    402 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    402 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    402 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    403 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+
+[42;30m 3 400 100 100 7 not die[0m
+[1;32mTest: 1[0m
+[1;32mTest: 2[0m
+[1;32mTest: 3[0m
+[1;32mTest: 4[0m
+[1;32mTest: 5[0m
+[1;32mTest: 6[0m
+[1;32mTest: 7[0m
+[1;32mTest: 8[0m
+[1;32mTest: 9[0m
+[1;32mTest: 10[0m
+
+[41;30m 3 200 100 100 7 should die[0m
+[1;31mTest: 1[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    202 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    203 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    201 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    202 | philo:   1 | status: [31mdied[0m
+
+[42;30m 4 410 200 200 7 not die[0m
+[1;32mTest: 1[0m
+[1;32mTest: 2[0m
+[1;32mTest: 3[0m
+[1;32mTest: 4[0m
+[1;32mTest: 5[0m
+[1;32mTest: 6[0m
+[1;32mTest: 7[0m
+[1;32mTest: 8[0m
+[1;32mTest: 9[0m
+[1;32mTest: 10[0m
+
+[41;30m 4 399 200 200 7 should die[0m
+[1;31mTest: 1[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 2[0m
+	time:    801 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 3[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 4[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 5[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 6[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 7[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 8[0m
+	time:    400 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 9[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+[1;31mTest: 10[0m
+	time:    401 | philo:   1 | status: [31mdied[0m
+

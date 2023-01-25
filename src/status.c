@@ -6,7 +6,7 @@
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 22:48:18 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/25 15:24:51 by hepiment         ###   ########.fr       */
+/*   Updated: 2023/01/25 18:10:38 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,13 @@
 
 void	print_status(long int time_now, t_philo *philo, char *status)
 {
-	//long int	time_now;
-
 	pthread_mutex_lock(&philo->data->execution);
 	time_now = get_time();
 	if (philo->data->done_execution != 1)
-		printf("\ttime: %6ld | philo: %3d | status: %s\n", time_now - philo->data->start_dinner, philo->id, status);
+		printf("\ttime: %6ld | philo: %3d | status: %s\n"\
+		, time_now - philo->data->start_dinner, philo->id, status);
 	pthread_mutex_unlock(&philo->data->execution);
-	
-	// pthread_mutex_lock(&philo->data->execution);
-	// if (philo->data->done_execution != 1)
-	// 	printf("\ttime: %6ld | philo: %3d | last meal: %6ld | status: %s\n", time_now - philo->data->start_dinner, philo->id, time_now - philo->last_meal, status);
-	// pthread_mutex_unlock(&philo->data->execution);
 }
-
 
 int	check_status(t_data *data, int i)
 {
@@ -38,7 +31,6 @@ int	check_status(t_data *data, int i)
 	}
 	return (0);
 }
-
 
 int	all_satisfied(t_data *data)
 {

@@ -1,31 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   mutex.c                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/23 21:19:21 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/25 18:10:52 by hepiment         ###   ########.fr       */
+/*   Created: 2023/01/25 18:15:22 by hepiment          #+#    #+#             */
+/*   Updated: 2023/01/25 18:15:49 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-void	init_mutex(t_data *data)
+void	ft_bzero(void *s, size_t n)
 {
-	pthread_mutex_init(&data->eating, NULL);
-	pthread_mutex_init(&data->execution, NULL);
-}
+	unsigned char	*s_s;
+	size_t			i;
 
-void	destroy_mutex(t_data *data)
-{
-	int	i;
-
-	i = -1;
-	pthread_mutex_destroy(&data->eating);
-	pthread_mutex_destroy(&data->execution);
-	i = -1;
-	while (++i < data->nb_philo)
-		pthread_mutex_destroy(&data->forks[i]);
+	i = 0;
+	s_s = (unsigned char *)s;
+	while (i < n)
+	{
+		s_s[i] = '\0';
+		i++;
+	}
 }

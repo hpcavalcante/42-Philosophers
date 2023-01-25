@@ -6,7 +6,7 @@
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 15:46:59 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/23 22:22:32 by hepiment         ###   ########.fr       */
+/*   Updated: 2023/01/25 18:16:49 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,20 +52,6 @@ long	get_time(void)
 	return ((time.tv_sec * 1000) + (time.tv_usec / 1000));
 }
 
-void	ft_bzero(void *s, size_t n)
-{
-	unsigned char	*s_s;
-	size_t			i;
-
-	i = 0;
-	s_s = (unsigned char *)s;
-	while (i < n)
-	{
-		s_s[i] = '\0';
-		i++;
-	}
-}
-
 void	print_error(char *msg, int type)
 {
 	printf("Error: %s\n", msg);
@@ -76,10 +62,10 @@ void	print_error(char *msg, int type)
 
 void	check_args(int argc, char **argv)
 {
-	int i;
+	int	i;
 	int	j;
 
-	i = 1;	
+	i = 1;
 	if (argc < 5)
 		print_error("Too few arguments:", 1);
 	else if (argc > 6)

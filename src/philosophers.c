@@ -6,7 +6,7 @@
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 19:10:57 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/25 14:16:18 by hepiment         ###   ########.fr       */
+/*   Updated: 2023/01/25 18:14:12 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 t_data	*init_data(int argc, char **argv)
 {
-	t_data *data;
+	t_data	*data;
+
 	data = malloc(sizeof(t_data));
 	data->nb_philo = ft_atoi(argv[1]);
 	data->to_die = ft_atoi(argv[2]);
@@ -43,7 +44,7 @@ void	init_philo(t_data *data)
 		data->philo[i].left_fork = i;
 		data->philo[i].right_fork = i + 1;
 		data->philo[i].data = data;
-		data->philo[i].last_meal = get_time();
+		data->philo[i].last_meal = 0;
 		data->philo[i].nb_meals = 0;
 		if (i + 1 == data->nb_philo)
 			data->philo[i].right_fork = 0;
@@ -51,7 +52,6 @@ void	init_philo(t_data *data)
 		i++;
 	}
 }
-
 
 void	create_threads(t_data *data)
 {
@@ -61,7 +61,8 @@ void	create_threads(t_data *data)
 	i = 0;
 	while (i < data->nb_philo)
 	{
-		if (pthread_create(&data->philo[i].threads, NULL, &routine, &data->philo[i]) != 0)
+		if (pthread_create(&data->philo[i].threads, NULL, \
+		&routine, &data->philo[i]) != 0)
 			print_error("At creating threads", 2);
 		i++;
 	}
@@ -72,9 +73,9 @@ void	create_threads(t_data *data)
 	pthread_join(status, NULL);
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	t_data 			*data;
+	t_data	*data;
 
 	check_args(argc, argv);
 	data = init_data(argc, argv);

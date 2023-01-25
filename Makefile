@@ -6,13 +6,13 @@
 #    By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/24 04:53:44 by hepiment          #+#    #+#              #
-#    Updated: 2023/01/25 14:23:19 by hepiment         ###   ########.fr        #
+#    Updated: 2023/01/25 18:20:28 by hepiment         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME			=	philo
 SOURCES_FILES	=	philosophers.c
-SOURCES_FILES	+=	mutex.c routines.c status.c utils.c
+SOURCES_FILES	+=	mutex.c routines.c status.c utils.c ft_bzero.c routines_utils.c
 
 SOURCES_DIR		=	src
 
