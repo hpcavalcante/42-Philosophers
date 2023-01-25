@@ -6,7 +6,7 @@
 /*   By: hepiment <hepiment@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 22:46:50 by hepiment          #+#    #+#             */
-/*   Updated: 2023/01/25 15:33:56 by hepiment         ###   ########.fr       */
+/*   Updated: 2023/01/25 16:01:48 by hepiment         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int		check_death(t_data *data)
 
 	pthread_mutex_lock(&data->eating);
 	time = get_time();
-	if (time - data->philo->last_meal > data->to_die)
+	if (time - data->philo->last_meal >= data->to_die)
 	{
 		print_status(time, data->philo, "\033[31mdied\033[0m");
 		pthread_mutex_lock(&data->execution);
